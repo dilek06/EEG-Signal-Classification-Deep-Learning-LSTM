@@ -1,0 +1,14 @@
+Tasks MI:			LHand rest RHand rest ...
+Each MI task dur:	3 sec
+EEG device:			eeOnDo 8ch, fs = 250 Hz
+File format:
+id					packet number from eeOnDo
+timestamp			packet system time
+cell_ID				task label:
+						-1		no task
+						 0		left MI
+						 1		rest
+						 2		right MI
+channels			0	1	2	3	4	5	6	7
+					C4	CP4	FC4	C3	CP3	FC3	FCZ	POZ
+
